@@ -1,0 +1,3 @@
+local id = tonumber(game.PlaceId)
+
+game:GetService("TeleportService"):Teleport(id, game:GetService("Players").LocalPlayer)
